@@ -76,7 +76,7 @@ function onConnect(soc,serverid,socmode){
                
                 soc.sshClient.connect(opts).then(
                     ()=>{soc.asend(`you are connected`)}
-                )
+                ).catch((e)=>soc.asend(e))
             }
         },
         (message)=>{
