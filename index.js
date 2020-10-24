@@ -72,7 +72,7 @@ function onConnect(soc,serverid,socmode){
                     soc.asend(`${soc.sshPassword.replace(/./g, "*")}\n`)
                 }else(soc.asend(`\n`))
 
-                opts.privateKey ='c:/users/admin/.ssh/id_rsa'
+                opts.privateKey ='~/.ssh/id_rsa'
                
                 soc.sshClient.connect(opts).then(
                     ()=>{soc.asend(`you are connected`)}
