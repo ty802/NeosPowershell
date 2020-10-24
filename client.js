@@ -1,5 +1,4 @@
-const jwt = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWViYzY1YjE0NzAyNTIwNzg2NWM4MDdkIiwicm9sZSI6Im93bmVyIiwiY2hhbm5lbCI6IjVlYmM2NWIxNDcwMjUyMzUzZDVjODA3ZSIsInByb3ZpZGVyIjoidHdpdGNoIiwiYXV0aFRva2VuIjoiRm9IZUg2Um45M0VpWER6eE5XaUN4RVlDU0ZySWxWOGdUV0c0eEhRVlNtckVTMHZRIiwiaWF0IjoxNTk5MTY0NzUyLCJpc3MiOiJTdHJlYW1FbGVtZW50cyJ9.rDUc6dkYLTrYK8soHQJA4PQjiBENXAI02TMNVcazv94'
-const seurl ='https://realtime.streamelements.com'
+const jwt = ''
 const io = require('socket.io-client')
 const readline = require('readline');
 
